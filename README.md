@@ -1,9 +1,4 @@
 # Quadcopter
-Quadcopter control is a fundamentally difficult and interesting problem. With six de-
-grees of freedom (three translational and three rotational) and only four independent inputs
-(rotor speeds), quadcopters are severely underactuated. In order to achieve six degrees of
-freedom, rotational and translational motion are coupled. The resulting dynamics are highly
-nonlinear, especially after accounting for the complicated aerodynamic effects. Finally, unlike
-ground vehicles, helicopters have very little friction to prevent their motion, so they must pro-
-vide their own damping in order to stop moving and remain stable. Together, these factors
-create a very interesting control problem.
+An autonomous Quadcopter is a multi-rotor helicopter that is capable of navigating autonomously. It has multiple realistic applications such as crop monitoring, search and rescue assistance, and military usage. The goal of our project Quadcopter Surveillance is to construct a quad-rotor with mobile mounted. All signals from sensors are processed by Arduino board and output from the Arduino board is implemented to control Quadcopter propellers. Maximum operated time of Quadcopter is six minutes using 2200 mAh LiPo battery and operating time can be increased by using largest battery capacity.
+
+Quadcopter control is a fundamentally difficult and interesting problem. With six de-grees of freedom (three translational and three rotational) and only four independent inputs(rotor speeds), quadcopters are severely underactuated. In order to achieve six degrees of freedom, rotational and translational motion are coupled. The resulting dynamics are highly nonlinear, especially after accounting for the complicated aerodynamic effects. Finally, unlikeground vehicles, helicopters have very little friction to prevent their motion, so they must pro-vide their own damping in order to stop moving and remain stable. Together, these factorscreate a very interesting control problem.
